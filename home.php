@@ -67,11 +67,11 @@
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-parent">
-                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="">Movie Title</p>
+                                    <h3><a href="#">Movie Title</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -79,11 +79,11 @@
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-parent">
-                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="">Movie Title</p>
+                                    <h3><a href="#">Movie Title</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -91,11 +91,11 @@
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-parent">
-                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="">Movie Title</p>
+                                    <h3><a href="#">Movie Title</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -103,11 +103,11 @@
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image is-parent">
-                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="">Movie Title</p>
+                                    <h3><a href="#">Movie Title</a></h3>
                                 </div>
                             </div>
                         </div>
