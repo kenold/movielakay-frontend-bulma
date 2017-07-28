@@ -71,7 +71,7 @@
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="subtitle is-6">Movie Title</p>
+                                    <p class="">Movie Title</p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="subtitle is-6">Movie Title</p>
+                                    <p class="">Movie Title</p>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="subtitle is-6">Movie Title</p>
+                                    <p class="">Movie Title</p>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                     </figure>
                                 </div>
                                 <div class="card-content">
-                                    <p class="subtitle is-6">Movie Title</p>
+                                    <p class="">Movie Title</p>
                                 </div>
                             </div>
                         </div>
