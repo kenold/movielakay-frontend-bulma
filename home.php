@@ -112,15 +112,14 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- end middle poster list-->
                 </div>
                 <div class="column">
                     <p class="notification is-success">sidebar</p>
                 </div>
-            </div> <!-- columns -->
-        </section>
-    </div> <!-- container -->
+            </div> <!-- /.columns -->
+        </section> <!-- /.new upcoming -->
+    </div> <!-- /.container -->
 
     <footer class="footer">
         <div class="container">
