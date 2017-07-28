@@ -62,55 +62,9 @@
 
                 <section class="section new">
                     <h1 class="title">New and Upcoming</h1>
-                    <div class="columns">
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title</a></h3>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="columns" id='new-movie'>
+                        <!-- new movies placeholder - limit 4 -->
+
                     </div> <!-- /.columns new -->
                 </section> <!-- /.new upcoming -->
 
@@ -189,18 +143,39 @@
     </footer>
 
     <script async type="text/javascript" src="js/bulma.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!-- generate dummy data with FakerJS -->
     <script type="text/javascript" src="js/faker.min.js"></script>
 
     <script>
-        var randomMovie = faker.random.objectElement([
-            {title: "Kado Bondye", year: 2017},
-            {title: "Abused", year: 2016},
-            {title: "The Heavenly Side of Hell", year: 2013},
-            {title: "We Love You Anne", year: 2014}
+        var newMovie = faker.helpers.shuffle([
+            "Kado Bondye",
+            "Abused",
+            "We Love You Anne",
+            "The Heavenly Side of Hell"
         ]);
-        alert(randomMovie.title + ' (' + randomMovie.year + ')');
+
+        var years = faker.helpers.shuffle(["2014", "2015", "2016", "2017"]);
+
+        $(document).ready(function() {
+            for (var i = 0; i < 4; i++) {
+                $("#new-movie").append(
+                    "<div class='column'>" +
+                    "<div class='card'>" +
+                    "<div class='card-image'>" +
+                    "<figure class='image is-parent'>" +
+                    "<a href='#'><img src='http://via.placeholder.com/210x311' alt='Image'></a>" +
+                    "</figure>" +
+                    "</div>" +
+                    "<div class='card-content'>" +
+                    "<h3><a href='#'>" + newMovie[i] + "</a></h3>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>"
+                );
+            }
+        });
     </script>
 </body>
 </html>
