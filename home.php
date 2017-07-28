@@ -102,7 +102,7 @@
     <script type="text/javascript" src="js/faker.min.js"></script>
 
     <script>
-        var newMovie = faker.helpers.shuffle([
+        var movies = faker.helpers.shuffle([
             "Kado Bondye",
             "Abused",
             "We Love You Anne",
@@ -129,7 +129,7 @@
                     "</figure>" +
                     "</div>" +
                     "<div class='card-content'>" +
-                    "<h3><a href='#'>" + newMovie[i] + "</a></h3>" +
+                    "<h3><a href='#'>" + movies[i] + "</a></h3>" +
                     "</div>" +
                     "</div>" +
                     "</div>"
@@ -148,7 +148,7 @@
                     "</figure>" +
                     "</div>" +
                     "<div class='card-content'>" +
-                    "<h3><a href='#'>" + newMovie[i] + "</a></h3>" +
+                    "<h3><a href='#'>" + movies[i] + "</a></h3>" +
                     "</div>" +
                     "</div>" +
                     "</div>"
