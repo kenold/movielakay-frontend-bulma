@@ -63,8 +63,7 @@
                 <section class="section new">
                     <h1 class="title">New and Upcoming</h1>
                     <div class="columns" id='new-movie'>
-                        <!-- new movies placeholder - limit 4 -->
-
+                        <!-- place holder for dynamic popular from custom.js -->
                     </div> <!-- /.columns new -->
                 </section> <!-- /.new upcoming -->
 
@@ -72,7 +71,7 @@
                 <section class="section popular">
                     <h1 class="title">Most Popular</h1>
                     <div class="columns" id='popular-movie'>
-                        <!-- dynamic popular -->
+                        <!-- place holder for dynamic data from custom.js -->
                     </div>
                 </section>
             </div> <!-- column is-three-quarters -->
@@ -84,7 +83,7 @@
                 </div>
             </section>
 
-        </div> <!-- columns -->
+        </div> <!-- columns / main -->
     </div> <!-- /.container -->
 
     <footer class="footer">
