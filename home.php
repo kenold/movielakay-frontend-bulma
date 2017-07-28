@@ -65,7 +65,20 @@
                 <div class="columns">
                     <div class="column is-three-quarters">
                         <!-- middle poster list-->
-
+                        <div class="columns">
+                            <div class="column">
+                                First column
+                            </div>
+                            <div class="column">
+                                Second column
+                            </div>
+                            <div class="column">
+                                Third column
+                            </div>
+                            <div class="column">
+                                Fourth column
+                            </div>
+                        </div>
 
                         <!-- end middle poster list-->
                     </div>
