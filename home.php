@@ -57,8 +57,8 @@
 
     <!-- layout -->
     <div class="container">
-        <section class="section newest">
-            <h1 class="title">New Movies</h1>
+        <section class="section recent">
+            <h1 class="title">Recent Movies</h1>
             <div class="columns">
                 <div class="column is-three-quarters">
                     <!-- middle poster list-->
