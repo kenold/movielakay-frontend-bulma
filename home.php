@@ -64,16 +64,52 @@
                     <!-- middle poster list-->
                     <div class="columns">
                         <div class="column">
-                            <img src="http://via.placeholder.com/210x311" alt="">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="column">
-                            <img src="http://via.placeholder.com/210x311" alt="">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="column">
-                            <img src="http://via.placeholder.com/210x311" alt="">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="column">
-                            <img src="http://via.placeholder.com/210x311" alt="">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <img src="http://via.placeholder.com/210x311" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
