@@ -71,55 +71,8 @@
                 <!-- **** MOST POPULAR **** -->
                 <section class="section popular">
                     <h1 class="title">Most Popular</h1>
-                    <div class="columns">
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title (2011)</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title (2015)</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title (2010)</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure class="image is-parent">
-                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
-                                    </figure>
-                                </div>
-                                <div class="card-content">
-                                    <h3><a href="#">Movie Title (2017)</a></h3>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="columns" id='popular-movie'>
+                        <!-- dynamic popular -->
                     </div>
                 </section>
             </div> <!-- column is-three-quarters -->
@@ -156,7 +109,7 @@
             "The Heavenly Side of Hell"
         ]);
 
-        var years = faker.helpers.shuffle(["2014", "2015", "2016", "2017"]);
+        var movieYear = faker.helpers.shuffle(["2014", "2015", "2016", "2017"]);
 
         $(document).ready(function() {
             for (var i = 0; i < 4; i++) {
@@ -176,6 +129,28 @@
                 );
             }
         });
+
+
+        $(document).ready(function() {
+            for (var i = 0; i < 4; i++) {
+                $("#popular-movie").append(
+                    "<div class='column'>" +
+                    "<div class='card'>" +
+                    "<div class='card-image'>" +
+                    "<figure class='image is-parent'>" +
+                    "<a href='#'><img src='http://via.placeholder.com/210x311' alt='Image'></a>" +
+                    "</figure>" +
+                    "</div>" +
+                    "<div class='card-content'>" +
+                    "<h3><a href='#'>" + newMovie[i] + ' (' + movieYear [i] + ')' + "</a></h3>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>"
+                );
+            }
+        });
+
+
     </script>
 </body>
 </html>
