@@ -106,7 +106,8 @@
             "Kado Bondye",
             "Abused",
             "We Love You Anne",
-            "The Heavenly Side of Hell"
+            "The Heavenly Side of Hell",
+            "Natalie"
         ]);
 
         var movieYear = faker.helpers.shuffle(["2014", "2015", "2016", "2017"]);
@@ -130,9 +131,8 @@
             }
         });
 
-
         $(document).ready(function() {
-            for (var i = 0; i < 4; i++) {
+            for (var i = 1; i < 5; i++) {
                 $("#popular-movie").append(
                     "<div class='column'>" +
                     "<div class='card'>" +
@@ -142,15 +142,13 @@
                     "</figure>" +
                     "</div>" +
                     "<div class='card-content'>" +
-                    "<h3><a href='#'>" + newMovie[i] + ' (' + movieYear [i] + ')' + "</a></h3>" +
+                    "<h3><a href='#'>" + newMovie[i] + "</a></h3>" +
                     "</div>" +
                     "</div>" +
                     "</div>"
                 );
             }
         });
-
-
     </script>
 </body>
 </html>
