@@ -15,7 +15,7 @@
     <nav class="nav has-shadow">
         <div class="container">
             <div class="nav-left">
-                <a class="nav-item" href="../index.html">
+                <a class="nav-item" href="home.php">
                     movieLAKAY
                 </a>
             </div>
