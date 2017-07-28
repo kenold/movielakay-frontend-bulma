@@ -183,9 +183,7 @@
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
-                <p>
-                    &copy;<a href="http://movielakay.com">MovieLakay.com</a>
-                </p>
+                <p>&copy;MovieLakay.com</p>
             </div>
         </div>
     </footer>
