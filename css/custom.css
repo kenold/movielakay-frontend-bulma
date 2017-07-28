@@ -1,3 +1,7 @@
 .card {
     box-shadow: none;
 }
+
+.section {
+    padding: 3rem 1.5rem 0;
+}
