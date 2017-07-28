@@ -172,7 +172,7 @@
 
             <!-- **** SIDEBAR **** -->
             <section class="section">
-                <div class="column auto">
+                <div class="column">
                     <p class="notification is-success">Sidebar banner ads!</p>
                 </div>
             </section>
