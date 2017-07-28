@@ -56,14 +56,12 @@
     </nav>
 
     <div class="container">
-        <section class="section">
-            <h1 class="title">New and Upcoming</h1>
-        </section>
 
         <div class="columns">
             <div class="column is-three-quarters">
 
                 <section class="section new">
+                    <h1 class="title">New and Upcoming</h1>
                     <div class="columns">
                         <div class="column">
                             <div class="card">
@@ -117,12 +115,8 @@
                 </section> <!-- /.new upcoming -->
 
                 <!-- **** MOST POPULAR **** -->
-                <section class="section">
-                    <h1 class="title">Most Popular</h1>
-                </section>
-
                 <section class="section popular">
-
+                    <h1 class="title">Most Popular</h1>
                     <div class="columns">
                         <div class="column">
                             <div class="card">
@@ -177,9 +171,11 @@
             </div> <!-- column is-three-quarters -->
 
             <!-- **** SIDEBAR **** -->
-            <div class="column">
-                <p class="notification is-success">sidebar</p>
-            </div>
+            <section class="section">
+                <div class="column auto">
+                    <p class="notification is-success">Sidebar banner ads!</p>
+                </div>
+            </section>
 
         </div> <!-- columns -->
     </div> <!-- /.container -->
