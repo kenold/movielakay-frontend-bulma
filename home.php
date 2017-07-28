@@ -118,21 +118,25 @@
 
         var movieYear = faker.helpers.shuffle(["2014", "2015", "2016", "2017"]);
 
+        function column(i) {
+            return "" + "<div class='column'>" +
+            "<div class='card'>" +
+            "<div class='card-image'>" +
+            "<figure class='image is-parent'>" +
+            "<a href='#'><img src='http://via.placeholder.com/210x311' alt='Image'></a>" +
+            "</figure>" +
+            "</div>" +
+            "<div class='card-content'>" +
+            "<h3><a href='#'>" + movies[i] + "</a></h3>" +
+            "</div>" +
+            "</div>" +
+            "</div>";
+        }
+
         $(document).ready(function() {
             for (var i = 0; i < 4; i++) {
                 $("#new-movie").append(
-                    "<div class='column'>" +
-                    "<div class='card'>" +
-                    "<div class='card-image'>" +
-                    "<figure class='image is-parent'>" +
-                    "<a href='#'><img src='http://via.placeholder.com/210x311' alt='Image'></a>" +
-                    "</figure>" +
-                    "</div>" +
-                    "<div class='card-content'>" +
-                    "<h3><a href='#'>" + movies[i] + "</a></h3>" +
-                    "</div>" +
-                    "</div>" +
-                    "</div>"
+                    column(i)
                 );
             }
         });
@@ -140,18 +144,7 @@
         $(document).ready(function() {
             for (var i = 5; i < 9; i++) {
                 $("#popular-movie").append(
-                    "<div class='column'>" +
-                    "<div class='card'>" +
-                    "<div class='card-image'>" +
-                    "<figure class='image is-parent'>" +
-                    "<a href='#'><img src='http://via.placeholder.com/210x311' alt='Image'></a>" +
-                    "</figure>" +
-                    "</div>" +
-                    "<div class='card-content'>" +
-                    "<h3><a href='#'>" + movies[i] + "</a></h3>" +
-                    "</div>" +
-                    "</div>" +
-                    "</div>"
+                    column(i)
                 );
             }
         });
