@@ -107,7 +107,13 @@
             "Abused",
             "We Love You Anne",
             "The Heavenly Side of Hell",
-            "Natalie"
+            "Natalie",
+            "Married Men",
+            "Dancing in the Shadow of Love",
+            "Toussaint L’ouverture",
+            "Unconditional Love",
+            "Ogou Le Revenant"
+
         ]);
 
         var movieYear = faker.helpers.shuffle(["2014", "2015", "2016", "2017"]);
@@ -132,7 +138,7 @@
         });
 
         $(document).ready(function() {
-            for (var i = 1; i < 5; i++) {
+            for (var i = 5; i < 9; i++) {
                 $("#popular-movie").append(
                     "<div class='column'>" +
                     "<div class='card'>" +
