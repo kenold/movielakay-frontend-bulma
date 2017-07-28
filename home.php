@@ -12,95 +12,93 @@
 </head>
 <body>
 
-        <div class="container">
-            <nav class="nav has-shadow">
-                <div class="container">
-                    <div class="nav-left">
-                        <a class="nav-item" href="../index.html">
-                            movieLAKAY
-                        </a>
-                    </div>
-                    <span class="nav-toggle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-                    <div class="nav-right nav-menu">
-                        <a class="nav-item is-tab is-active">
-                            Home
-                        </a>
-                        <a class="nav-item is-tab">
-                            Movies
-                        </a>
-                        <a class="nav-item is-tab">
-                            People
-                        </a>
-                        <a class="nav-item is-tab">
-                            Trailers
-                        </a>
-                        <a class="nav-item is-tab">
-                            Photos
-                        </a>
-                        <a class="nav-item is-tab">
-                            News
-                        </a>
-                        <span class="nav-item">
-                <a class="button">
-                  Log in
-                </a>
-                <a class="button is-info">
-                  Sign up
-                </a>
-              </span>
-                    </div>
+    <div class="container">
+        <nav class="nav has-shadow">
+            <div class="container">
+                <div class="nav-left">
+                    <a class="nav-item" href="../index.html">
+                        movieLAKAY
+                    </a>
                 </div>
-            </nav>
-        </div>
+                <span class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+                <div class="nav-right nav-menu">
+                    <a class="nav-item is-tab is-active">
+                        Home
+                    </a>
+                    <a class="nav-item is-tab">
+                        Movies
+                    </a>
+                    <a class="nav-item is-tab">
+                        People
+                    </a>
+                    <a class="nav-item is-tab">
+                        Trailers
+                    </a>
+                    <a class="nav-item is-tab">
+                        Photos
+                    </a>
+                    <a class="nav-item is-tab">
+                        News
+                    </a>
+                    <span class="nav-item">
+            <a class="button">
+              Log in
+            </a>
+            <a class="button is-info">
+              Sign up
+            </a>
+          </span>
+                </div>
+            </div>
+        </nav>
+    </div>
 
 
     <!-- layout -->
+    <div class="container">
         <section class="section newest">
-            <div class="container">
-                <h1 class="title">New Movies</h1>
-                <div class="columns">
-                    <div class="column is-three-quarters">
-                        <!-- middle poster list-->
-                        <div class="columns">
-                            <div class="column">
-                                First column
-                            </div>
-                            <div class="column">
-                                Second column
-                            </div>
-                            <div class="column">
-                                Third column
-                            </div>
-                            <div class="column">
-                                Fourth column
-                            </div>
+            <h1 class="title">New Movies</h1>
+            <div class="columns">
+                <div class="column is-three-quarters">
+                    <!-- middle poster list-->
+                    <div class="columns">
+                        <div class="column">
+                            <img src="http://via.placeholder.com/210x311" alt="">
                         </div>
+                        <div class="column">
+                            <img src="http://via.placeholder.com/210x311" alt="">
+                        </div>
+                        <div class="column">
+                            <img src="http://via.placeholder.com/210x311" alt="">
+                        </div>
+                        <div class="column">
+                            <img src="http://via.placeholder.com/210x311" alt="">
+                        </div>
+                    </div>
 
-                        <!-- end middle poster list-->
-                    </div>
-                    <div class="column">
-                        <p class="notification is-success">sidebar</p>
-                    </div>
+                    <!-- end middle poster list-->
                 </div>
-            </div>
+                <div class="column">
+                    <p class="notification is-success">sidebar</p>
+                </div>
+            </div> <!-- columns -->
         </section>
+    </div> <!-- container -->
 
-    <!-- end layout -->
-
-        <footer class="footer">
-            <div class="container">
-                <div class="content has-text-centered">
-                    <p>
-                        &copy;<a href="http://movielakay.com">MovieLakay.com</a>
-                    </p>
-                </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    &copy;<a href="http://movielakay.com">MovieLakay.com</a>
+                </p>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-<script async type="text/javascript" src="js/bulma.js"></script>
+    <script async type="text/javascript" src="js/bulma.js"></script>
 </body>
 </html>
