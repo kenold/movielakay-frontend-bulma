@@ -189,5 +189,18 @@
     </footer>
 
     <script async type="text/javascript" src="js/bulma.js"></script>
+
+    <!-- generate dummy data with FakerJS -->
+    <script type="text/javascript" src="js/faker.min.js"></script>
+
+    <script>
+        var randomMovie = faker.random.objectElement([
+            {title: "Kado Bondye", year: 2017},
+            {title: "Abused", year: 2016},
+            {title: "The Heavenly Side of Hell", year: 2013},
+            {title: "We Love You Anne", year: 2014}
+        ]);
+        alert(randomMovie.title + ' (' + randomMovie.year + ')');
+    </script>
 </body>
 </html>
