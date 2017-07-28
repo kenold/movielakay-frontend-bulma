@@ -55,13 +55,15 @@
         </div>
     </nav>
 
-    <!-- layout -->
     <div class="container">
-        <section class="section recent">
+        <section class="section">
             <h1 class="title">New and Upcoming</h1>
-            <div class="columns">
-                <div class="column is-three-quarters">
-                    <!-- middle poster list-->
+        </section>
+
+        <div class="columns">
+            <div class="column is-three-quarters">
+
+                <section class="section new">
                     <div class="columns">
                         <div class="column">
                             <div class="card">
@@ -111,14 +113,75 @@
                                 </div>
                             </div>
                         </div>
+                    </div> <!-- /.columns new -->
+                </section> <!-- /.new upcoming -->
+
+                <!-- **** MOST POPULAR **** -->
+                <section class="section">
+                    <h1 class="title">Most Popular</h1>
+                </section>
+
+                <section class="section popular">
+
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3><a href="#">Movie Title (2011)</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3><a href="#">Movie Title (2015)</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3><a href="#">Movie Title (2010)</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-parent">
+                                        <a href="#"><img src="http://via.placeholder.com/210x311" alt="Image"></a>
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <h3><a href="#">Movie Title (2017)</a></h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- end middle poster list-->
-                </div>
-                <div class="column">
-                    <p class="notification is-success">sidebar</p>
-                </div>
-            </div> <!-- /.columns -->
-        </section> <!-- /.new upcoming -->
+                </section>
+            </div> <!-- column is-three-quarters -->
+
+            <!-- **** SIDEBAR **** -->
+            <div class="column">
+                <p class="notification is-success">sidebar</p>
+            </div>
+
+        </div> <!-- columns -->
     </div> <!-- /.container -->
 
     <footer class="footer">
