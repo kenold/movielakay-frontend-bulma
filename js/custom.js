@@ -41,4 +41,11 @@ $(document).ready(function() {
             column(i)
         );
     }
+
+    //append 3 columns and update featured div
+    for (i = 7; i < 10; i++) {
+        $("#featured").append(
+            column(i)
+        );
+    }
 });
