@@ -13,5 +13,9 @@
 }
 
 .section {
-    padding: 3rem 0 0;
+    padding: 1rem 0 0;
+}
+
+.title {
+    font-weight: 700;
 }
