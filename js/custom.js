@@ -1,15 +1,15 @@
 //movies array
 var movies = faker.helpers.shuffle([
-    {title: "Kado Bondye", year: 2017},
-    {title: "Abused", year: 2017},
-    {title: "We Love You Anne", year: 2013},
-    {title: "The Heavenly Side of Hell", year: 2015},
-    {title: "Natalie", year: 2009},
-    {title: "Married Men", year: 2018},
-    {title: "Dancing in the Shadow of Love", year: 2013},
-    {title: "Toussaint L'ouverture", year: 2011},
-    {title: "Unconditional Love", year: 2014},
-    {title: "Ogou Le Revenant", year: 2012}
+    {title: "Kado Bondye", year: 2017, poster: "poster.jpg"},
+    {title: "Abused", year: 2017, poster: "poster.jpg"},
+    {title: "We Love You Anne", year: 2013, poster: "poster.jpg"},
+    {title: "The Heavenly Side of Hell", year: 2015, poster: "poster.jpg"},
+    {title: "Natalie", year: 2009, poster: "poster.jpg"},
+    {title: "Married Men", year: 2018, poster: "poster.jpg"},
+    {title: "Dancing in the Shadow of Love", year: 2013, poster: "poster.jpg"},
+    {title: "Toussaint L'ouverture", year: 2011, poster: "poster.jpg"},
+    {title: "Unconditional Love", year: 2014, poster: "poster.jpg"},
+    {title: "Ogou Le Revenant", year: 2012, poster: "poster.jpg"}
 ]);
 
 function column(i) {
