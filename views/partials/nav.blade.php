@@ -14,21 +14,17 @@
 
         <div id="navMenuExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item " href="/">Home</a>
-                <a class="navbar-item is-tab">Movies</a>
-                <a class="navbar-item is-tab">People</a>
-                <a class="navbar-item is-tab">Trailers</a>
-                <a class="navbar-item is-tab">Photos</a>
-                <a class="navbar-item is-tab">News</a>
+                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item">Movies</a>
+                <a class="navbar-item">People</a>
+                <a class="navbar-item">Trailers</a>
+                <a class="navbar-item">Photos</a>
+                <a class="navbar-item">News</a>
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item" href="https://github.com/jgthms/bulma" target="_blank">
-                    Github
-                </a>
-                <a class="navbar-item" href="https://twitter.com/jgthms" target="_blank">
-                    Twitter
-                </a>
+                <a class="navbar-item" href="#">Login</a>
+                <a class="navbar-item" href="#">Sign up</a>
             </div>
         </div>
     </nav>
