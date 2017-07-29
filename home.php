@@ -1,44 +1,54 @@
 <?php include_once 'views/partials/header.blade.php'; ?>
     <?php include_once 'views/partials/nav.blade.php'; ?>
 
-    <div class="container">
 
-        <div class="columns">
-            <div class="column is-three-quarters">
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-9">
 
-                <!-- **** FEATURED **** -->
-                <section class="section featured">
-                    <div class="columns" id='featured'>
-                        <!-- place holder for dynamic data from custom.js -->
-                    </div> <!-- /.columns #featured -->
-                </section> <!-- /.featured -->
+                    <!-- **** FEATURED **** -->
+                    <section class="section featured">
+                        <div class="container">
+                            <div class="columns" id='featured'>
+                                <!-- place holder for dynamic data from custom.js -->
+                            </div> <!-- /.columns #featured -->
+                        </div>
+                    </section> <!-- /.featured -->
 
-                <!-- **** NEW AND UPCOMING **** -->
-                <section class="section new">
-                    <h1 class="title">New and Upcoming</h1>
-                    <div class="columns" id='new-movie'>
-                        <!-- place holder for dynamic data from custom.js -->
-                    </div> <!-- /.columns #new-movie -->
-                </section> <!-- /.new upcoming -->
+                    <!-- **** NEW AND UPCOMING **** -->
+                    <section class="section new">
+                        <div class="container">
+                            <h1 class="title">New and Upcoming</h1>
+                            <div class="columns" id='new-movie'>
+                                <!-- place holder for dynamic data from custom.js -->
+                            </div> <!-- /.columns #new-movie -->
+                        </div>
+                    </section> <!-- /.new upcoming -->
 
-                <!-- **** MOST POPULAR **** -->
-                <section class="section popular">
-                    <h1 class="title">Most Popular</h1>
-                    <div class="columns" id='popular-movie'>
-                        <!-- place holder for dynamic data from custom.js -->
-                    </div> <!-- /.columns #popular-movie -->
-                </section> <!-- /.popular -->
-            </div> <!-- column is-three-quarters -->
+                    <!-- **** MOST POPULAR **** -->
+                    <section class="section popular">
+                        <div class="container">
+                            <h1 class="title">Most Popular</h1>
+                            <div class="columns" id='popular-movie'>
+                                <!-- place holder for dynamic data from custom.js -->
+                            </div> <!-- /.columns #popular-movie -->
+                        </div>
+                    </section> <!-- /.popular -->
+                </div> <!-- column is-three-quarters -->
 
-            <!-- **** SIDEBAR **** -->
-            <section class="section">
-                <div class="column">
-                    <p class="notification is-success">Sidebar banner advertisement!</p>
-                </div>
-            </section>
+                <!-- **** SIDEBAR **** -->
+                <section class="section">
+                    <div class="container">
+                        <div class="column">
+                            <p class="notification is-success">Sidebar banner advertisement here!</p>
+                        </div>
+                    <div class="container">
+                </section>
 
-        </div> <!-- columns / main -->
-    </div> <!-- /.container -->
+            </div> <!-- columns / main -->
+        </div> <!-- /.container section -->
+    </section>
 
     <?php include_once 'views/partials/footer.blade.php'; ?>
 
