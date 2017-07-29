@@ -37,9 +37,9 @@ $(document).ready(function() {
     }
 
     //append 4 columns and update popular-movie div
-    for (var j = 5; j < 9; j++) {
+    for (i = 5; i < 9; i++) {
         $("#popular-movie").append(
-            column(j)
+            column(i)
         );
     }
 });
