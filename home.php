@@ -25,7 +25,7 @@
             <!-- **** SIDEBAR **** -->
             <section class="section">
                 <div class="column">
-                    <p class="notification is-success">Sidebar banner ads!</p>
+                    <p class="notification is-success">Sidebar banner advertisement!</p>
                 </div>
             </section>
 
