@@ -12,8 +12,9 @@ var movies = faker.helpers.shuffle([
     {title: "Ogou Le Revenant", year: 2012, poster: "poster.jpg"}
 ]);
 
-function column(i) {
+function column(i, section) {
 
+    var popular = (section=='popular');
     return "" + "<div class='column'>" +
         "<div class='card'>" +
         "<div class='card-image'>" +
@@ -22,7 +23,7 @@ function column(i) {
         "</figure>" +
         "</div>" +
         "<div class='card-content'>" +
-        "<h3><a href='#'>" + movies[i].title + "</a></h3>" +
+        "<h3><a href='#'>" + movies[i].title + (popular ? ' (' + movies[i].year + ')' : '') + "</a></h3>" +
         "</div>" +
         "</div>" +
         "</div>";
@@ -33,21 +34,21 @@ $(document).ready(function() {
     //append 3 columns and update featured div
     for (f = 7; f < 10; f++) {
         $("#featured").append(
-            column(f)
+            column(f, 'featured')
         );
     }
 
     //append 4 columns and update new-movie div
     for (var n = 0; n < 4; n++) {
         $("#new-movie").append(
-            column(n)
+            column(n, 'new')
         );
     }
 
     //append 4 columns and update popular-movie div
     for (p = 5; p < 9; p++) {
         $("#popular-movie").append(
-            column(p)
+            column(p, 'popular')
         );
     }
 });
