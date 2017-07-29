@@ -2,7 +2,7 @@
     <nav class="navbar ">
         <div class="navbar-brand">
             <a class="navbar-item" href="http://bulma.io">
-                <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                <img src="http://www.movielakay.com/wp-content/uploads/2013/06/logo.png" alt="MovieLakay: Haiti Movie Database">
             </a>
 
             <div class="navbar-burger burger" data-target="navMenuExample">
