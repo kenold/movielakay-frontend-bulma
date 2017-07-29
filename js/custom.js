@@ -15,6 +15,8 @@ var movies = faker.helpers.shuffle([
 function column(i, section) {
 
     var popular = (section=='popular');
+    var featured = (section=='featured');
+
     return "" + "<div class='column'>" +
         "<div class='card'>" +
         "<div class='card-image'>" +
@@ -23,7 +25,7 @@ function column(i, section) {
         "</figure>" +
         "</div>" +
         "<div class='card-content'>" +
-        "<h3><a href='#'>" + movies[i].title + (popular ? ' (' + movies[i].year + ')' : '') + "</a></h3>" +
+        "<h3 class='has-text-centered'><a href='#'>" + movies[i].title + (popular ? ' (' + movies[i].year + ')' : '') + "</a></h3>" +
         "</div>" +
         "</div>" +
         "</div>";
