@@ -13,6 +13,7 @@ var movies = faker.helpers.shuffle([
 ]);
 
 function column(i) {
+
     return "" + "<div class='column'>" +
         "<div class='card'>" +
         "<div class='card-image'>" +
@@ -28,24 +29,25 @@ function column(i) {
 }
 
 $(document).ready(function() {
+
+    //append 3 columns and update featured div
+    for (f = 7; f < 10; f++) {
+        $("#featured").append(
+            column(f)
+        );
+    }
+
     //append 4 columns and update new-movie div
-    for (var i = 0; i < 4; i++) {
+    for (var n = 0; n < 4; n++) {
         $("#new-movie").append(
-            column(i)
+            column(n)
         );
     }
 
     //append 4 columns and update popular-movie div
-    for (i = 5; i < 9; i++) {
+    for (p = 5; p < 9; p++) {
         $("#popular-movie").append(
-            column(i)
-        );
-    }
-
-    //append 3 columns and update featured div
-    for (i = 7; i < 10; i++) {
-        $("#featured").append(
-            column(i)
+            column(p)
         );
     }
 });
