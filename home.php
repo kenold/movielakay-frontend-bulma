@@ -43,10 +43,10 @@
                 <!-- **** SIDEBAR **** -->
                 <section class="section">
                     <div class="container">
-                        <div class="column">
+                        <div class="column is-3">
                             <p class="notification is-success">Sidebar banner advertisement here!</p>
                         </div>
-                    <div class="container">
+                    </div>
                 </section>
 
             </div> <!-- columns / main -->
