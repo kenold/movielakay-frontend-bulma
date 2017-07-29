@@ -32,7 +32,7 @@ function column(i, section) {
 $(document).ready(function() {
 
     //append 3 columns and update featured div
-    for (f = 7; f < 10; f++) {
+    for (f = 5; f < 10; f++) {
         $("#featured").append(
             column(f, 'featured')
         );
