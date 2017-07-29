@@ -28,17 +28,18 @@ function column(i) {
 }
 
 $(document).ready(function() {
+
+    //append 4 columns and update new-movie div
     for (var i = 0; i < 4; i++) {
         $("#new-movie").append(
             column(i)
         );
     }
-});
 
-$(document).ready(function() {
-    for (var i = 5; i < 9; i++) {
+    //append 4 columns and update popular-movie div
+    for (var j = 5; j < 9; j++) {
         $("#popular-movie").append(
-            column(i)
+            column(j)
         );
     }
 });
