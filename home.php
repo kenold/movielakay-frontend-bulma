@@ -1,20 +1,23 @@
 <?php include_once 'views/partials/header.blade.php'; ?>
     <?php include_once 'views/partials/nav.blade.php'; ?>
 
+<section class="hero is-dark">
+    <div class="hero-body">
+        <!-- **** FEATURED **** -->
+        <section class="section featured">
+            <div class="container">
+                <div class="columns" id='featured'>
+                    <!-- place holder for dynamic data from custom.js -->
+                </div> <!-- /.columns #featured -->
+            </div>
+        </section> <!-- /.featured -->
+    </div>
+</section>
 
     <section class="section">
         <div class="container">
             <div class="columns">
                 <div class="column is-9">
-
-                    <!-- **** FEATURED **** -->
-                    <section class="section featured">
-                        <div class="container">
-                            <div class="columns" id='featured'>
-                                <!-- place holder for dynamic data from custom.js -->
-                            </div> <!-- /.columns #featured -->
-                        </div>
-                    </section> <!-- /.featured -->
 
                     <!-- **** NEW AND UPCOMING **** -->
                     <section class="section new">
