@@ -28,7 +28,6 @@ function column(i) {
 }
 
 $(document).ready(function() {
-
     //append 4 columns and update new-movie div
     for (var i = 0; i < 4; i++) {
         $("#new-movie").append(
