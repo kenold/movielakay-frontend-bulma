@@ -19,18 +19,18 @@
             <div class="columns">
                 <div class="column is-9">
 
-                    <h1 class="title">New and Upcoming</h1>
+                    <h1 class="title is-4">New and Upcoming</h1>
                     <div class="columns" id='new-movie'>
                         <!-- place holder for dynamic data from custom.js -->
                     </div> <!-- /.columns #new-movie -->
 
-                    <h1 class="title">Most Popular</h1>
+                    <h1 class="title is-3">Most Popular</h1>
                     <div class="columns" id='popular-movie'>
                         <!-- place holder for dynamic data from custom.js -->
                     </div> <!-- /.columns #popular-movie -->
                 </div> <!-- /.columns -->
 
-                <div class="column is-3 sidebar">
+                <div class="column sidebar">
                     <p class="notification is-success">Sidebar banner advertisement here!</p>
                 </div>
 

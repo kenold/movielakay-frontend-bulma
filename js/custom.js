@@ -26,7 +26,7 @@ function column(i, section) {
         "</figure>" +
         "</div>" +
         "<div class='card-content'>" +
-        "<h3 class='has-text-centered'><a href='#'>" + movies[i].title + (popular ? ' (' + movies[i].year + ')' : '') + "</a></h3>" +
+        "<h3 class='subtitle is-6 has-text-centered'><a href='#'>" + movies[i].title + (popular ? ' (' + movies[i].year + ')' : '') + "</a></h3>" +
         "</div>" +
         "</div>" +
         "</div>";
