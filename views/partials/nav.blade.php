@@ -5,14 +5,14 @@
                 <img src="http://www.movielakay.com/wp-content/uploads/2013/06/logo.png" alt="MovieLakay: Haiti Movie Database">
             </a>
 
-            <div class="navbar-burger burger" data-target="navMenuExample">
+            <div class="navbar-burger burger" data-target="navMenu">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
 
-        <div id="navMenuExample" class="navbar-menu">
+        <div id="navMenu" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item">Movies</a>
                 <a class="navbar-item">People</a>
