@@ -1,7 +1,7 @@
 <div class="container">
     <nav class="navbar ">
         <div class="navbar-brand">
-            <a class="navbar-item" href="http://bulma.io">
+            <a class="navbar-item" href="/">
                 <img src="http://www.movielakay.com/wp-content/uploads/2013/06/logo.png" alt="MovieLakay: Haiti Movie Database">
             </a>
 
@@ -14,7 +14,6 @@
 
         <div id="navMenuExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" href="/">Home</a>
                 <a class="navbar-item">Movies</a>
                 <a class="navbar-item">People</a>
                 <a class="navbar-item">Trailers</a>
