@@ -24,7 +24,7 @@
                         <!-- place holder for dynamic data from custom.js -->
                     </div> <!-- /.columns #new-movie -->
 
-                    <h1 class="title is-3">Most Popular</h1>
+                    <h1 class="title is-4">Most Popular</h1>
                     <div class="columns" id='popular-movie'>
                         <!-- place holder for dynamic data from custom.js -->
                     </div> <!-- /.columns #popular-movie -->
