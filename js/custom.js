@@ -14,8 +14,8 @@ var movies = faker.helpers.shuffle([
 
 function column(i, section) {
 
-    var popular = (section=='popular');
-    var featured = (section=='featured');
+    var popular = (section==='popular');
+    var featured = (section==='featured');
     var imgSrc = 'images/posters/' + movies[i].poster;
 
     return "" + "<div class='column'>" +
